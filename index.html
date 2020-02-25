@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/hamburgers-master/dist/hamburgers.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>Travel Site</title>
 </head>
 <body>
+    <div class="small-nav">
+        <ul>
+            <li><a href="#">LOCATION</a></li>
+            <li><a href="#">MOODS</a></li>
+            <li><a href="#">BLOG</a></li>
+        </ul>
+    </div>
     <div id="navbar-header">
         <nav>
             <div class="logo">ARINKA</div>
             <div class="navbar">
-                <ul>
+                <div class="hamburger hamburger--spring" onclick="openHamburger()">
+                    <div class="hamburger-box">
+                      <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="hamburger" onclick="openHamburger()">&#9776;</a> -->
+                <ul id="hamburger-list">
                     <li><a href="#">LOCATION</a></li>
                     <li><a href="#">MOODS</a></li>
                     <li><a href="#">BLOG</a></li>
