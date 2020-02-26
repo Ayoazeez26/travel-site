@@ -297,7 +297,7 @@ footer {
         width: 80%;
     }
     #second-section {
-        height: 45vh;
+        height: 330px;
     }
     #second-section p {
         font-size: 55px;
@@ -392,7 +392,7 @@ footer {
         border-radius: 25px;
     }
     #second-section {
-        height: 24vh;
+        height: 150px;
         position: relative;
         margin-top: 20px;
     }
