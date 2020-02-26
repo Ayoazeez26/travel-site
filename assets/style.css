@@ -284,6 +284,9 @@ footer {
     .gallery {
         width: 90%;
     }
+    #second-section p {
+        width: 33%;
+    }
 }
 
 @media screen and (max-width:1174px) {
@@ -293,14 +296,18 @@ footer {
     .about-text {
         width: 80%;
     }
+    #second-section {
+        height: 45vh;
+    }
     #second-section p {
         font-size: 55px;
+        width: 32%;
     }
     #second-section h6 {
-        top: 95px;
+        top: 65px;
     }
     #second-section p {
-        top: 140px;
+        top: 100px;
     }
 }
 
@@ -387,13 +394,13 @@ footer {
     }
     #second-section h6 {
         top: 23px;
-        width: 30%;
+        width: 20vh;
         margin-left: 35px;
         font-size: 15px;
     }
     #second-section p {
         top: 62px;
-        width: 45%;
+        width: 25vh;
         margin-left: 35px;
         font-size: 24px;
     }
